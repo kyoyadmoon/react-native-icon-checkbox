@@ -6,7 +6,7 @@ react native checkbox implement with  [react-native-vector-icons](https://github
 
 ## **Installation**
 
-1. need to Install react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) first 
+1. need to Install [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) first 
 2. `npm install react-native-icon-checkbox  --save`
 
 ## **Usage**
@@ -61,7 +61,7 @@ export default class Example extends Component {
 | color            | string   | '#000'            | icon color                               |
 | backgroundColor  | string   | 'rgba(0,0,0,0)'   | background color of the button           |
 | onPress          | func     |                   | A function called when the button is pressed. |
-| underlayColor    | string   | 'reba(0,0,0,0)'   | [prop of TouchableHighlight](https://facebook.github.io/react-native/docs/touchablehighlight.html#underlaycolor) |
+| underlayColor    | string   | 'rgba(0,0,0,0)'   | [prop of TouchableHighlight](https://facebook.github.io/react-native/docs/touchablehighlight.html#underlaycolor) |
 | activeOpacity    | number   | 1                 | [prop of TouchableHighlight](https://facebook.github.io/react-native/docs/touchablehighlight.html#activeopacity) |
 | borderRadius     | number   | 5                 | borderRadius of button                   |
 

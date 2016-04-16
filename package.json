@@ -1,6 +1,6 @@
 {
   "name": "react-native-icon-checkbox",
-  "version": "0.1.0",
+  "version": "1.0.3",
   "description": "react-native checkbox component implement with react-native-vector-icons",
   "main": "CheckBox.js",
   "scripts": {
@@ -16,6 +16,10 @@
     "component",
     "ios"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyoyadmoon/react-native-icon-checkbox.git"
+  },
   "author": "DMoon",
   "license": "MIT"
 }
