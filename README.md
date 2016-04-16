@@ -1,6 +1,8 @@
 # react-native-icon-checkbox
 
-react native checkbox implement with  [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
+react native Checkbox / RadioButton component implement with  [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
+
+use [Material Icons](https://design.google.com/icons/)
 
 ![Gif](http://i.imgur.com/kbFvceU.gif)
 
