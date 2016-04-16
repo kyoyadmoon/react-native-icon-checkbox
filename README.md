@@ -6,7 +6,7 @@ react native checkbox implement with  [react-native-vector-icons](https://github
 
 ## **Installation**
 
-1. need to Install react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) first 
+1. need to Install [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) first 
 2. `npm install react-native-icon-checkbox  --save`
 
 ## **Usage**
