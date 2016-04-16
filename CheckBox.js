@@ -4,8 +4,9 @@ import React, {
   StyleSheet,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
+
 export default function CheckBox(props) {
-  const iconName = props.checked ? 'check-box' : 'check-box-outline-blank';
+  const iconName = props.checked ? props.checkedIconName : props.uncheckedIconName;
   const styles = StyleSheet.create({
     label: {
       fontSize: 16,
@@ -22,7 +23,6 @@ export default function CheckBox(props) {
   return (
     <Icon.Button
       {...props}
-      transition={['color', 'rotate', 'fontSize']}
       name={iconName}
       size={props.size}
       backgroundColor={props.backgroundColor}
@@ -55,6 +55,8 @@ CheckBox.propTypes = {
   underlayColor: PropTypes.string,
   activeOpacity: PropTypes.number,
   borderRadius: PropTypes.number,
+  uncheckedIconName: PropTypes.string,
+  checkedIconName: PropTypes.string,
 };
 
 CheckBox.defaultProps = {
@@ -68,4 +70,6 @@ CheckBox.defaultProps = {
   underlayColor: 'rgba(0,0,0,0)',
   activeOpacity: 1,
   borderRadius: 5,
+  uncheckedIconName: 'check-box-outline-blank',
+  checkedIconName: 'check-box',
 };
