@@ -1,6 +1,8 @@
 import React, {
+  PropTypes
+} from 'react';
+import {
   Text,
-  PropTypes,
   StyleSheet,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
