@@ -1,6 +1,11 @@
 import React, {
-  Text,
+  Component,
   PropTypes,
+} from 'react';
+
+import {
+  Text,
+  View,
   StyleSheet,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
@@ -46,9 +51,9 @@ CheckBox.propTypes = {
   size: PropTypes.number,
   checked: PropTypes.bool,
   label: PropTypes.string,
-  labelStyle: PropTypes.object,
-  iconStyle: PropTypes.object,
-  checkedIconStyle: PropTypes.object,
+  labelStyle: Text.propTypes.style,
+  iconStyle: View.propTypes.style,
+  checkedIconStyle: Text.propTypes.style,
   color: PropTypes.string,
   backgroundColor: PropTypes.string,
   onPress: PropTypes.func,
