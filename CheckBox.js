@@ -52,7 +52,7 @@ CheckBox.propTypes = {
   checked: PropTypes.bool,
   label: PropTypes.string,
   labelStyle: Text.propTypes.style,
-  iconStyle: View.propTypes.style,
+  iconStyle: Text.propTypes.style,
   checkedIconStyle: Text.propTypes.style,
   color: PropTypes.string,
   backgroundColor: PropTypes.string,
