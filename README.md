@@ -11,6 +11,10 @@ use [Material Icons](https://design.google.com/icons/)
 1. need to Install [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) first 
 2. `npm install react-native-icon-checkbox  --save`
 
+## **Breaking new!!**
+
+**This fork includes prop-types resolved so is fully compatible with RN 0.49+ and React 15.3+!**
+
 ## **Usage**
 
 ```javascript
